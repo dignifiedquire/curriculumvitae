@@ -1,0 +1,6 @@
+.DS_STORE
+*.log
+*.out
+*.aux
+*.dvi
+*synctex.gz
