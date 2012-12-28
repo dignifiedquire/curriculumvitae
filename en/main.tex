@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,sans,roman]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
 % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -25,7 +25,7 @@
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{3.1cm}           % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
@@ -76,27 +76,29 @@
 \begin{itemize}%
   \item Development of an automated parser for measurement data files.
     (Using Node, CouchDB and Angular.js)
-  \item Evaluation of git for internal use.
-  \item Hardware evaluation and planning.
-  \item Creation of internal python programs.
+  \item Evaluation of git for internal use
+  \item Evaluation of hardware concepts
+  \item Creation of internal python programs
 \end{itemize}}
 
 \section{Languages}
 \cvitemwithcomment{German}{Native}{}
-\cvitemwithcomment{English}{Professional}{}
-\cvitemwithcomment{French}{Novice}{}
+\cvitemwithcomment{English}{Professional}{14 years}
+\cvitemwithcomment{French}{Novice}{4 years}
 
-%\clearpage
+\clearpage
 \section{Computer Skills}
 \subsection{Programming}
 \cvitemwithcomment{Javascript}{Professional}{Node, browser}
 \cvitemwithcomment{CoffeeScript}{Professional}{}
 \cvitemwithcomment{MV* Frameworks}{Advanced}{Backbone.js, Angular.js}
+\cvitemwithcomment{BDD, TDD}{Advanced}{Mocha, Jasmine, RSpec}
 \cvitemwithcomment{HTML(5)}{Advanced}{}
 \cvitemwithcomment{CSS}{Advanced}{}
 \cvitemwithcomment{XML}{Advanced}{}
 \cvitemwithcomment{Ruby}{Advanced}{plain and with Ruby on Rails 3}
-\cvitemwithcomment{LaTex}{Professional}{}
+\cvitemwithcomment{LaTex}{Professional}{documentation, scientific
+  papers and books}
 \cvitemwithcomment{Python}{Novice}{}
 \cvitemwithcomment{Java}{Novice}{}
 \cvitemwithcomment{Objective C}{Novice}{}
